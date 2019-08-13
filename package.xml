@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>C3_ConfigSetupHelper</name>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License</license>
     <channel>community</channel>
@@ -12,20 +12,15 @@
 &lt;p&gt;Features:&#xD;
 &lt;ul&gt;&lt;li&gt;Speed up development - ready to copy and paste into a setup script and save&lt;/li&gt;&#xD;
 &lt;li&gt;Works with any extension that displays options in the system config&lt;/li&gt;&#xD;
-&lt;li&gt;Self-commenting: Gives section and group names to aid visibility&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-    <notes>&lt;p&gt;Features:&#xD;
-&lt;ul&gt;&lt;li&gt;Speed up development - ready to copy and paste into a setup script and save&lt;/li&gt;&#xD;
-&lt;li&gt;Works with any extension that displays options in the system config&lt;/li&gt;&#xD;
-&lt;li&gt;Self-commenting: Gives section and group names to aid visibility&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&#xD;
-&#xD;
-&lt;p&gt;Known issues:&#xD;
-&lt;ul&gt;&lt;li&gt;There are some settings in e.g. Paypal that aren&#x2019;t currently outputting correctly. We are looking into this for the next version.&lt;/li&gt;&#xD;
-&lt;li&gt;Oldest supported CE version is 1.7.0.1&lt;/li&gt;&#xD;
+&lt;li&gt;Self-commenting: Gives section and group names to aid visibility&lt;/li&gt;&#xD;
+&lt;li&gt;Set default, website and store-view settings&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+    <notes>&lt;ul&gt;&#xD;
+&lt;li&gt;Outputs correct scope for store view, website and default settings (explicit scope omitted for the latter).&lt;/li&gt;&#xD;
 &lt;/ul&gt;</notes>
     <authors><author><name>C3 Media</name><user>c3media_ltd</user><email>hello@c3media.co.uk</email></author></authors>
-    <date>2014-08-22</date>
-    <time>14:06:08</time>
-    <contents><target name="magelocal"><dir name="C3"><dir name="ConfigSetupHelper"><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><file name="Field.php" hash="75498e2964682d612f819d6fc1003ce7"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="19117a4729fcf4c89a017ff19061fddc"/></dir><dir name="Model"><file name="Observer.php" hash="dbb236e8a403c46b2806a4215ab2d47d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="264455adf68a82fdf90e66bcd8e55311"/><file name="config.xml" hash="6add7801116c1ae661acd4a40b0483bb"/><file name="system.xml" hash="389118cb235a221cdec8ecfcbacc9ac7"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="C3_ConfigSetupHelper.csv" hash="d9af8dbceefcb3641627229ee485e891"/></dir></target><target name="mageetc"><dir name="modules"><file name="C3_ConfigSetupHelper.xml" hash="992c432cd6c0d4d87cff46a52f1b19ea"/></dir></target></contents>
+    <date>2014-08-30</date>
+    <time>06:45:36</time>
+    <contents><target name="magelocal"><dir name="C3"><dir name="ConfigSetupHelper"><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><file name="Field.php" hash="0a60951c867788eef3f9d59ce0225c96"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="fc0cdda862331b3cde8e42db4d838388"/></dir><dir name="Model"><file name="Observer.php" hash="54286dd7328999b4b76c91c19f5896ae"/></dir><dir name="etc"><file name="adminhtml.xml" hash="264455adf68a82fdf90e66bcd8e55311"/><file name="config.xml" hash="72a97dbdeb2fbdc321f6354624998a65"/><file name="system.xml" hash="20a65918a7a3cbd8d5ccf52d7ef6a1fc"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="C3_ConfigSetupHelper.csv" hash="d9af8dbceefcb3641627229ee485e891"/></dir></target><target name="mageetc"><dir name="modules"><file name="C3_ConfigSetupHelper.xml" hash="ebfc0255290433a028e3e6ea91b22a14"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
