@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/C3_ConfigSetupHelper",
+    "name": "OpenMageModuleFostering\/C3_ConfigSetupHelper",
     "type": "magento-module",
     "license": "GNU-General-Public-License",
     "homepage": "",
     "description": "Automatically creates a setup script for selected options in system configuration page.",
     "authors": [
-    {
-        "name": "C3 Media",
-        "email": "hello@c3media.co.uk"
-    }
-],
+        {
+            "name": "C3 Media",
+            "email": "hello@c3media.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
